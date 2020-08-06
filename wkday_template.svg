@@ -9,84 +9,84 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="4.25in"
-   height="5.5in"
-   viewBox="0 0 107.95 139.7"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="wkday_template.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="wkday_template.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 107.95 139.7"
+   height="5.5in"
+   width="4.25in">
   <defs
      id="defs2">
     <linearGradient
-       id="linearGradient3026"
-       osb:paint="gradient">
+       osb:paint="gradient"
+       id="linearGradient3026">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         id="stop3022"
          offset="0"
-         id="stop3022" />
+         style="stop-color:#ffffff;stop-opacity:1;" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
+         id="stop3024"
          offset="1"
-         id="stop3024" />
+         style="stop-color:#ffffff;stop-opacity:0;" />
     </linearGradient>
     <rect
-       x="5.9676821"
-       y="40.137311"
-       width="100.79401"
+       id="rect24"
        height="3.761619"
-       id="rect24" />
-    <rect
-       id="rect24-3"
-       height="3.7616191"
        width="100.79401"
-       y="40.13731"
-       x="5.9676819" />
+       y="40.137311"
+       x="5.9676821" />
     <rect
-       id="rect982"
-       height="3.7616191"
-       width="100.79401"
+       x="5.9676819"
        y="40.13731"
-       x="5.9676819" />
+       width="100.79401"
+       height="3.7616191"
+       id="rect24-3" />
+    <rect
+       x="5.9676819"
+       y="40.13731"
+       width="100.79401"
+       height="3.7616191"
+       id="rect982" />
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3026"
-       id="linearGradient3030"
-       gradientUnits="userSpaceOnUse"
-       x1="29.493708"
-       y1="13.831464"
+       y2="13.831464"
        x2="78.295644"
-       y2="13.831464" />
+       y1="13.831464"
+       x1="29.493708"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3030"
+       xlink:href="#linearGradient3026"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.1725075"
-     inkscape:cx="212.74684"
-     inkscape:cy="59.773354"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="in"
-     height="5.5in"
-     inkscape:window-width="1366"
-     inkscape:window-height="748"
-     inkscape:window-x="0"
-     inkscape:window-y="20"
-     inkscape:window-maximized="1"
-     inkscape:snap-global="false"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="false"
-     inkscape:bbox-nodes="false"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
      inkscape:snap-others="true"
-     inkscape:object-paths="true" />
+     inkscape:snap-nodes="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:bbox-nodes="false"
+     inkscape:bbox-paths="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="20"
+     inkscape:window-x="0"
+     inkscape:window-height="748"
+     inkscape:window-width="1366"
+     height="5.5in"
+     units="in"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="264"
+     inkscape:cx="204"
+     inkscape:zoom="1.0757576"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -100,12 +100,12 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <image
        sodipodi:absref="/home/vivi/gits/planner-generator/images/placeholder.png"
-       xlink:href="images/placeholder.png"
+       xlink:href="../images/placeholder.png"
        y="5.429153"
        x="5.5661874"
        width="96.656998"
@@ -113,29 +113,124 @@
        preserveAspectRatio="none"
        id="image292" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Kioves;-inkscape-font-specification:'Kioves, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       x="5.8502827"
+       id="text16"
        y="43.452484"
-       id="text16"><tspan
-         x="5.8502827"
-         y="43.452484"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:1.25;font-family:Kioves;-inkscape-font-specification:Kioves;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       x="5.8502827"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Kioves;-inkscape-font-specification:'Kioves, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       xml:space="preserve"><tspan
+         id="tspan18"
          sodipodi:role="line"
-         id="tspan18" /></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:1.25;font-family:Kioves;-inkscape-font-specification:Kioves;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         y="43.452484"
+         x="5.8502827" /></text>
     <rect
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       id="rect891"
-       width="96.941658"
-       height="16.659876"
+       y="5.5041709"
        x="5.4238572"
-       y="5.5041709" />
+       height="16.659876"
+       width="96.941658"
+       id="rect891"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
     <g
-       style="fill:#333333"
+       transform="translate(0,-0.22964577)"
        id="g955"
-       transform="translate(0,-0.22964577)">
+       style="fill:#333333">
       <text
-         id="text12"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3135px;line-height:0;font-family:'Warung Kopi';-inkscape-font-specification:'Warung Kopi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.132838"
+         x="5.4219818"
+         y="32.453594"
+         id="text12"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           x="5.4219818"
+           y="32.453594"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3135px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke-width:0.132838">$$day1$$ $$day1name$$</tspan></text>
+    </g>
+    <path
+       id="path913"
+       d="M 5.4219818,32.867811 H 102.36739"
+       style="fill:none;stroke:#4d4d4d;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.52916600000000003;stroke-dashoffset:0;stroke-opacity:1" />
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(0,5.656585)"
+       id="use931"
+       xlink:href="#path913"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(0,5.6565831)"
+       id="use933"
+       xlink:href="#use931"
+       y="0"
+       x="0" />
+    <use
+       transform="translate(0,5.6565871)"
+       height="100%"
+       width="100%"
+       id="use935"
+       xlink:href="#use933"
+       y="0"
+       x="0" />
+    <use
+       transform="translate(0,5.6565831)"
+       height="100%"
+       width="100%"
+       id="use937"
+       xlink:href="#use935"
+       y="0"
+       x="0" />
+    <use
+       transform="translate(0,5.6565832)"
+       height="100%"
+       width="100%"
+       id="use939"
+       xlink:href="#use937"
+       y="0"
+       x="0" />
+    <use
+       transform="translate(0,5.6565852)"
+       height="100%"
+       width="100%"
+       id="use941"
+       xlink:href="#use939"
+       y="0"
+       x="0" />
+    <use
+       transform="translate(0,5.6565832)"
+       height="100%"
+       width="100%"
+       id="use943"
+       xlink:href="#use941"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(0,5.6565818)"
+       id="use945"
+       xlink:href="#use943"
+       y="0"
+       x="0" />
+    <text
+       id="text279"
+       y="17.469473"
+       x="53.894676"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         y="17.469473"
+         x="53.894676"
+         id="tspan277"
+         sodipodi:role="line">$$month$$</tspan></text>
+    <g
+       id="g955-3"
+       transform="translate(0.0053137,55.77742)"
+       style="fill:#333333">
+      <text
+         id="text12-8"
          y="32.453594"
          x="5.4219818"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3135px;line-height:0;font-family:'Warung Kopi';-inkscape-font-specification:'Warung Kopi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.132838"
@@ -143,182 +238,87 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3135px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke-width:0.132838"
            y="32.453594"
            x="5.4219818"
-           id="tspan10"
-           sodipodi:role="line">$$day1$$ $$day1name$$</tspan></text>
+           id="tspan10-6"
+           sodipodi:role="line">$$day2$$ $$day2name$$</tspan></text>
     </g>
     <path
        style="fill:none;stroke:#4d4d4d;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.52916600000000003;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 5.4219818,32.867811 H 102.36739"
-       id="path913" />
+       d="M 5.4272955,88.874877 H 102.3727"
+       id="path913-4" />
     <use
        x="0"
        y="0"
-       xlink:href="#path913"
-       id="use931"
+       xlink:href="#path913-4"
+       id="use931-8"
        transform="translate(0,5.656585)"
        width="100%"
        height="100%" />
     <use
        x="0"
        y="0"
-       xlink:href="#use931"
-       id="use933"
-       transform="translate(0,5.6565831)"
+       xlink:href="#use931-8"
+       id="use933-8"
+       transform="translate(0,5.656583)"
        width="100%"
        height="100%" />
     <use
        x="0"
        y="0"
-       xlink:href="#use933"
-       id="use935"
+       xlink:href="#use933-8"
+       id="use935-8"
        width="100%"
        height="100%"
-       transform="translate(0,5.6565871)" />
+       transform="translate(0,5.656587)" />
     <use
        x="0"
        y="0"
-       xlink:href="#use935"
-       id="use937"
+       xlink:href="#use935-8"
+       id="use937-9"
        width="100%"
        height="100%"
-       transform="translate(0,5.6565831)" />
+       transform="translate(0,5.656583)" />
     <use
        x="0"
        y="0"
-       xlink:href="#use937"
-       id="use939"
+       xlink:href="#use937-9"
+       id="use939-7"
        width="100%"
        height="100%"
-       transform="translate(0,5.6565832)" />
+       transform="translate(0,5.656583)" />
     <use
        x="0"
        y="0"
-       xlink:href="#use939"
-       id="use941"
+       xlink:href="#use939-7"
+       id="use941-7"
        width="100%"
        height="100%"
-       transform="translate(0,5.6565852)" />
+       transform="translate(0,5.656585)" />
     <use
        x="0"
        y="0"
-       xlink:href="#use941"
-       id="use943"
+       xlink:href="#use941-7"
+       id="use943-6"
        width="100%"
        height="100%"
-       transform="translate(0,5.6565832)" />
+       transform="translate(0,5.656583)" />
     <use
        x="0"
        y="0"
-       xlink:href="#use943"
-       id="use945"
-       transform="translate(0,5.6565818)"
+       xlink:href="#use943-6"
+       id="use945-4"
+       transform="translate(0,5.656582)"
        width="100%"
        height="100%" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
        x="53.894676"
        y="17.469473"
-       id="text279"><tspan
+       id="text132"><tspan
          sodipodi:role="line"
-         id="tspan277"
-         x="53.894676"
-         y="17.469473"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">$$month$$</tspan></text>
-    <g
-       style="fill:#333333"
-       transform="translate(0.0053137,55.77742)"
-       id="g955-3">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3135px;line-height:0;font-family:'Warung Kopi';-inkscape-font-specification:'Warung Kopi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.132838"
-         x="5.4219818"
-         y="32.453594"
-         id="text12-8"><tspan
-           sodipodi:role="line"
-           id="tspan10-6"
-           x="5.4219818"
-           y="32.453594"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.3135px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke-width:0.132838">$$day2$$ $$day2name$$</tspan></text>
-    </g>
-    <path
-       id="path913-4"
-       d="M 5.4272955,88.874877 H 102.3727"
-       style="fill:none;stroke:#4d4d4d;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.52916600000000003;stroke-dashoffset:0;stroke-opacity:1" />
-    <use
-       height="100%"
-       width="100%"
-       transform="translate(0,5.656585)"
-       id="use931-8"
-       xlink:href="#path913-4"
-       y="0"
-       x="0" />
-    <use
-       height="100%"
-       width="100%"
-       transform="translate(0,5.656583)"
-       id="use933-8"
-       xlink:href="#use931-8"
-       y="0"
-       x="0" />
-    <use
-       transform="translate(0,5.656587)"
-       height="100%"
-       width="100%"
-       id="use935-8"
-       xlink:href="#use933-8"
-       y="0"
-       x="0" />
-    <use
-       transform="translate(0,5.656583)"
-       height="100%"
-       width="100%"
-       id="use937-9"
-       xlink:href="#use935-8"
-       y="0"
-       x="0" />
-    <use
-       transform="translate(0,5.656583)"
-       height="100%"
-       width="100%"
-       id="use939-7"
-       xlink:href="#use937-9"
-       y="0"
-       x="0" />
-    <use
-       transform="translate(0,5.656585)"
-       height="100%"
-       width="100%"
-       id="use941-7"
-       xlink:href="#use939-7"
-       y="0"
-       x="0" />
-    <use
-       transform="translate(0,5.656583)"
-       height="100%"
-       width="100%"
-       id="use943-6"
-       xlink:href="#use941-7"
-       y="0"
-       x="0" />
-    <use
-       height="100%"
-       width="100%"
-       transform="translate(0,5.656582)"
-       id="use945-4"
-       xlink:href="#use943-6"
-       y="0"
-       x="0" />
-    <text
-       id="text132"
-       y="17.469473"
-       x="53.894676"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;"
-         y="17.469473"
-         x="53.894676"
          id="tspan130"
-         sodipodi:role="line">$$month$$</tspan></text>
+         x="53.894676"
+         y="17.469473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Unifont;-inkscape-font-specification:'Unifont, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill">$$month$$</tspan></text>
   </g>
 </svg>

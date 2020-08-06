@@ -121,7 +121,7 @@
      id="layer1">
     <image
        sodipodi:absref="/home/vivi/gits/planner-generator/images/placeholder.png"
-       xlink:href="images/placeholder.png"
+       xlink:href="../images/placeholder.png"
        y="5.429153"
        x="5.5661874"
        width="96.656998"
