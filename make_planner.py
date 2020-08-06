@@ -1,6 +1,9 @@
 import math
+import io
 from make_dates import *
 from replace_in_svg import replace_in_file
+from PyPDF2 import PdfFileMerger
+from cairosvg import svg2pdf
 
 # format: MM/DD/YYYY
 START_DATE = '08/10/2020'
@@ -41,31 +44,64 @@ mon_tue = zip(indices[0::7], indices[1::7])
 wed_thu = zip(indices[2::7], indices[3::7])
 fri_wkend = zip(indices[4::7], indices[5::7], indices[6::7])
 
-# mt_svgs = []
-# for mon, tue in mon_tue:
-#     replace_dict = {
-#         'month': month_names[mon],
-#         'day1': day_numbers[mon],
-#         'day1name': day_names[mon],
-#         'day2': day_numbers[tue],
-#         'day2name': day_names[tue]
-#     }
-#     images = {
-#         PLACEHOLDER: MONTH_PATTERN.format(month_numbers[mon])
-#     }
-#     svg = replace_in_file(replace_dict, images, WKDAY_TEMPLATE)
-#     mt_svgs.append(svg)
-#     print(replace_dict)
-replace_dict = {
-    'month': month_names[0],
-    'day1': day_numbers[0],
-    'day1name': day_names[0],
-    'day2': day_numbers[1],
-    'day2name': day_names[1]
-}
-images = { PLACEHOLDER: MONTH_PATTERN.format(month_numbers[0]) }
-svg = replace_in_file(replace_dict, images, WKDAY_TEMPLATE)
+mt_svgs = []
+for mon, tue in mon_tue:
+    replace_dict = {
+        'month': month_names[mon],
+        'day1': day_numbers[mon],
+        'day1name': day_names[mon],
+        'day2': day_numbers[tue],
+        'day2name': day_names[tue]
+    }
+    images = {
+        PLACEHOLDER: MONTH_PATTERN.format(month_numbers[mon])
+    }
+    svg = replace_in_file(replace_dict, images, WKDAY_TEMPLATE)
+    mt_svgs.append(svg)
 
-with open('./test-output.svg', 'w') as output:
-    output.write(svg)
+wt_svgs = []
+for mon, tue in wed_thu:
+    replace_dict = {
+        'month': month_names[mon],
+        'day1': day_numbers[mon],
+        'day1name': day_names[mon],
+        'day2': day_numbers[tue],
+        'day2name': day_names[tue]
+    }
+    images = {
+        PLACEHOLDER: MONTH_PATTERN.format(month_numbers[mon])
+    }
+    svg = replace_in_file(replace_dict, images, WKDAY_TEMPLATE)
+    wt_svgs.append(svg)
+
+fw_svgs = []
+for fri, sat, sun in fri_wkend:
+    replace_dict = {
+        'month': month_names[fri],
+        'day1': day_numbers[fri],
+        'day1name': day_names[fri],
+        'day2': day_numbers[sat],
+        'day2name': day_names[sat],
+        'day3': day_numbers[sun],
+        'day3name': day_names[sun]
+    }
+    images = {
+        PLACEHOLDER: MONTH_PATTERN.format(month_numbers[fri])
+    }
+    svg = replace_in_file(replace_dict, images, WKEND_TEMPLATE)
+    fw_svgs.append(svg)
+
+text_streams = []
+for svgs in zip(mt_svgs, wt_svgs, fw_svgs):
+    for svg in svgs:
+        text_streams.append(io.StringIO(svg))
+
+pdf_merger = PdfFileMerger()
+for stream in text_streams:
+    temp_pdf = svg2pdf(file_obj=stream)
+    temp_pdf = io.BytesIO(temp_pdf)
+    pdf_merger.append(temp_pdf)
+
+with open('pdf-output-test.pdf', 'wb') as output:
+    pdf_merger.write(output)
 
