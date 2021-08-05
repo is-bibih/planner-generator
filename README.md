@@ -16,7 +16,7 @@ to script (e.g., `images/placeholder.png` becomes `../images/placeholder.png`)
 
 ### run script
 
-```
-    cd planner-generator
-    python make_planner.py 
+```python
+cd planner-generator
+python make_planner.py 
 ```
